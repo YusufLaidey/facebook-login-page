@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
   }
   .p1 {
     display: flex;
@@ -9,15 +9,15 @@
     color: #318CE7;
     font-family: sans-serif;
     font-weight: bolder;
-    margin-left: 180px;
-    margin-top: 180px;
+    margin-left: 60px;
+    margin-top: 188px;
   }
   .p2 {
     display: flex;
     justify-content: left;
     font-size: 26px;
     font-family: sans-serif;
-    margin-left: 180px;
+    margin-left: 58px;
     margin-top: -60px;
   }
   .div {
@@ -29,14 +29,14 @@
     height: 380px;
     border-radius: 10px;
     margin-top: 120px;
-    margin-left: 70px;
+    margin-left: 98px;
   }
   .email {
     width: 380px;
     height: 50px;
     border-radius: 6px;
-    border-color: grey;
     border-style: none;
+    border-color: #318CE7;
     margin-top: 20px;
     margin-left: 14px;
     font-family: sans-serif;
@@ -74,7 +74,7 @@
    text-align: center;
    cursor: pointer;
   }
-  .log :focus{
+  .log :cursor{
    background-color: #6699CC;
   }
   .forgotten {
@@ -108,7 +108,7 @@
   }
   .div1 {
     margin-top: 40px;
-   margin-right: 60px;
+   margin-right: 240px;
     text-align: right;
  font-family: sans-serif;
     font-size: 16px;
